@@ -10,6 +10,6 @@ class rvm::packages::debian {
   if ! defined(Package['bzip2'])                { package { 'bzip2':                ensure => installed } }
   if ! defined(Package['zlib1g-dev'])           { package { 'zlib1g-dev':           ensure => installed } }
   if ! defined(Package['libssl-dev'])           { package { 'libssl-dev':           ensure => installed } }
-  if ! defined(Package['libreadline5-gplv2-dev'])     { package { 'libreadline5-gplv2-dev':     ensure => installed } }
+  if ! defined(Package['libreadline-gplv2-dev'])     { package { 'libreadline-gplv2-dev':     ensure => installed } }
 
 }
